@@ -17,6 +17,7 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --alternate: var(--grey-3);
 }
 
 * {

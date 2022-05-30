@@ -10,6 +10,7 @@
     
 }
 .footer__text {
+    margin: 0 auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -18,4 +19,5 @@
     text-align: center;
     color: #212429;
     padding-bottom: 136px;
+    max-width: 640px;
 }

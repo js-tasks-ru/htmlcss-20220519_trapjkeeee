@@ -54,8 +54,11 @@
     padding-top: 14px ;
 }
 .modal__close {
+    width: 15px;
+    height: 15px;
     position: fixed;
     top: 10%;
     left: 90%;
     cursor: pointer;
 }
+

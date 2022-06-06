@@ -7,19 +7,6 @@
     margin-bottom: 8px;
     padding: 24px 49px 0 32px;
 }
-.accordion__main{
-    position: relative;
-}
-.accordion__svg{
-    position: absolute;
-    top:32px;
-    left: 770px;
-    width: 16px;
-    height: 8px;
-}
-.accordion__main:last-child{
-    margin-bottom: 0px;
-}
 .accordion__title {
     display: block;
     font-family: 'inter';
@@ -28,9 +15,7 @@
     line-height: 24px;
     color: var(--black);
     margin-bottom: 24px;
-    
 }
-
 .accordion__title::-webkit-details-marker{
     display: none;
 }

@@ -1,0 +1,23 @@
+.navigation__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+    padding-bottom: 16px;
+}
+.navigation__text a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+.navigation__text:last-child {
+    padding-top: 30px;
+}
+.navigation__text_action a {
+    color: var(--red-2)
+}

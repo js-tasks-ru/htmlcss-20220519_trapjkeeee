@@ -8,24 +8,18 @@
     gap: 30px;
     flex-wrap: wrap;
     padding: 67px 0 204px 0;
-    /* align-content: flex-end; */
 }
 .preview__card {
     display: flex;
     flex-direction: column;
-    /* flex: 0 1 auto; */
     justify-content: space-between;
     min-width: 350px;
     min-height: 367px;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     background: var(--white);
-    /* margin-top: 67px; */
-
 }
 .preview__main {
-    /* padding: 0px 25px ; */
-
 }
 .preview__title {
     font-family: 'Roboto';

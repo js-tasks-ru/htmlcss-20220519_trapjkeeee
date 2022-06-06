@@ -4,7 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/container/container.css';
-@import '../../components/preview/historgam/historgram.css';
+@import '../../components/historgam/historgram.css';
 
 
 
@@ -24,7 +24,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-
+    --background: #F9FAFC;
     
     --error: var(--red);
     --success: var(--blue);
@@ -34,6 +34,7 @@
     --secondary: var(--purple);
     --secondary-hover: var(--purple-2);
     --alternate: var(--grey-3);
+    
 }
 
 * {

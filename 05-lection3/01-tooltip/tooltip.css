@@ -1,11 +1,9 @@
-.tooltip {
-    
+.tooltip__item{
     display: inline-block;
     position: relative;
     top: 50px;
     left: 50%;
 }
-
 .tooltip__trigger {
     cursor: pointer;
     
@@ -22,7 +20,7 @@
     padding: 13px 21px 8px;
     color: var(--grey-2);
     position: absolute;
-    bottom: 120%;
+    bottom: calc(100% + 6px);
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;

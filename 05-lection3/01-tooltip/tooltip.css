@@ -1,4 +1,5 @@
 .tooltip {
+    
     display: inline-block;
     position: relative;
     top: 50px;
@@ -7,6 +8,11 @@
 
 .tooltip__trigger {
     cursor: pointer;
+    
+}
+.tooltip__svg{
+    width: 24px;
+    height: 24px;
 }
 .tooltip__bubble {
     display: none;

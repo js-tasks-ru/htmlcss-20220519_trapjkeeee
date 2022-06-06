@@ -1,14 +1,25 @@
 .header {
     background: var(--white);
-    width: 100%;
-    height: 82px;
 }
-
+@media (max-width: 400px){
+    .header {
+        background: var(--grey-5);
+    }
+}
+.header__logo{
+    padding-top: 16px;
+}
+@media (max-width: 400px){
+    .header__logo{
+        padding-bottom: 17px;
+        text-align: center;
+    }
+}
 .header__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
-    color: #212429;
+    color: var(--black);
 }

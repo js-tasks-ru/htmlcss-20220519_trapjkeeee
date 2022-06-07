@@ -19,8 +19,11 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: var(--blue-2);
+    --primary-hover: var(--blue-3);
     --secondary: var(--purple);
+    --secondary-hover: var(--purple-2);
+    --alternate: var(--grey-3);
 }
 
 * {

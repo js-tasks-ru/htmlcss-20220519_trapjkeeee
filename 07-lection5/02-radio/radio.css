@@ -1,0 +1,68 @@
+.radio__input {
+    position: absolute; 
+    clip: rect(0,0,0,0);
+}
+.radio__state {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.radio__control {
+    position: relative;
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 14px;
+    width: 28px;
+    height: 28px;
+}
+.radio__icon {
+    display: none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.radio__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.radio__input:checked ~ .radio__state .radio__control {
+    border-color: var(--primary);
+}
+
+.radio__input:checked ~ .radio__state .radio__icon {
+    display: block;
+}
+
+.radio__input:focus ~ .radio__state .radio__title {
+    text-decoration: underline;
+}
+.radio__input:checked ~ .radio__state .radio__title {
+    display: none;
+}
+.radio__control_disabled{
+    background-color: var(--grey-2);
+}
+.radio__title_disabled{
+    color: var(--grey-3);
+}
+
+/* псевдо интерактив */
+.radio__input:checked ~ .radio__state .radio__title_selected::before {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+    content: "Selected";
+
+}
+

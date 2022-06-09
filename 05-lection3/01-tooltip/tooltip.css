@@ -1,12 +1,13 @@
-.tooltip__item{
+.tooltip{
     display: inline-block;
+}
+.tooltip__item{
     position: relative;
-    top: 50px;
-    left: 50%;
+    margin-top:50px;
+    margin-left:50px;
 }
 .tooltip__trigger {
     cursor: pointer;
-    
 }
 .tooltip__svg{
     width: 24px;

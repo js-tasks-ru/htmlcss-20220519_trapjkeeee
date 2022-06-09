@@ -1,4 +1,4 @@
-.histogram__row {
+.histogram {
     display: flex;
     flex-direction: column;
     max-width: 354px;

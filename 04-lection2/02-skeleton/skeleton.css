@@ -1,4 +1,4 @@
-.skeleton__row {
+.skeleton {
     display: flex;
     flex-direction: column;
     border: 1px solid var(--grey-3);

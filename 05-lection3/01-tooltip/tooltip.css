@@ -1,10 +1,6 @@
 .tooltip{
     display: inline-block;
-}
-.tooltip__item{
     position: relative;
-    margin-top:50px;
-    margin-left:50px;
 }
 .tooltip__trigger {
     cursor: pointer;

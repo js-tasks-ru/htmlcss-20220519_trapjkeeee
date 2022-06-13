@@ -1,11 +1,3 @@
-.component {
-    display: grid;
-    grid-template-columns: 229px 1fr;
-    gap: 56px;
-    padding-top: 36px;
-}
-.navigation {
-}
 .navigation__title {
     font-family: 'Inter';
     font-style: normal;
@@ -16,7 +8,7 @@
     padding-bottom: 16px;
     
 }
-.navigation__text a {
+.navigation__text .navigation__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -27,13 +19,6 @@
 .navigation__text:last-child {
     padding-top: 30px;
 }
-.navigation__text_action a {
+.navigation__text_action .navigation__link {
     color: var(--red-2)
-}
-.section {
-    background-color: var(--blue);
-}
-.section__title {
-}
-.section__content {
 }

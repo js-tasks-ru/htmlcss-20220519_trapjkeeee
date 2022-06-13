@@ -1,0 +1,8 @@
+.component {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    gap: 56px;
+    padding-top: 36px;
+}
+
+

@@ -1,0 +1,18 @@
+
+.header__main{
+    margin: 17px 0 32px;
+}
+
+.header__icon{
+    display: none;
+}
+@media (max-width: 400px){
+    .header__icon{
+        display: inline-block;
+    }
+
+}
+.header__logo{
+    padding-left: 89px;
+}
+

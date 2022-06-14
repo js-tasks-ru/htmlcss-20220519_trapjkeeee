@@ -53,8 +53,3 @@
 .radio__title_disabled{
     color: var(--grey-3);
 }
-
-/* псевдо интерактив */
-.radio__input:checked ~ .radio__state .radio__title_selected::before {
-    font-family: 'Inter';
-}

@@ -1,0 +1,24 @@
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--grey-2);
+}
+@media (max-width:400px){
+    .wrapper{
+        background-color: var(--white);
+    }
+}
+.component {
+    display: grid;
+    grid-template-columns: 229px 1fr;
+    gap: 56px;
+    padding-top: 36px;
+}
+@media (max-width:400px){
+    .component{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+}

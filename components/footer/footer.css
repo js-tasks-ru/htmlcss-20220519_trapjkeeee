@@ -7,15 +7,16 @@
     color: #212429;
     text-align: center;
     padding: 31px 0 32px 0;
-    
 }
 .footer__text {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
     text-align: center;
-    color: #212429;
-    padding-bottom: 136px;
+    padding: 92px 0 56px 0;
 }

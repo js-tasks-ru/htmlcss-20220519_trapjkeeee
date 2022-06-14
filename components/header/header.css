@@ -3,7 +3,7 @@
 }
 @media (max-width: 400px){
     .header {
-        background: var(--grey-5);
+        background: var(--grey-2);
     }
 }
 .header__logo{
